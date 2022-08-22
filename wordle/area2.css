@@ -1,0 +1,51 @@
+.linha7, .linha8, .linha9 {
+    display: flex;
+    justify-content: center;
+    margin: 0.2%  
+}
+
+.tecla { 
+    background-color: var(--cinza-escuro);
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.7rem;
+    margin: 0 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+}
+
+.g1, .g5, .g6, .g7, .g8, .h2, .h4, .h5, .h6, .h7, .h8, .i1, .i2, .i3, .i4, .i5, .i6, .i7, .i8, .i9 {
+    background-color: white
+}
+
+.h1 {
+ /* background-color: #c9b458;
+ color: white; */
+}
+
+.h9 {
+ /* background-color:#6aaa64; */
+ /* color: white; */
+}
+
+.g2, .g3, .g4, .g9, .g10, .h3 {
+ /* color: white; */
+}
+
+.i1, .i9 {
+    width: 100px;
+    /* height: 65px; */
+}
+
+.area2 {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.-cont div {
+    display: flex;
+}

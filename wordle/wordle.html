@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <title> WORDLE </title>
+  <link rel="stylesheet" href="area1.css">
+  <link rel="stylesheet" href="area2.css">
+  <h1 class="titulo"> Wordle </h1>
+  <hr>
+</head>
+
+<body onkeydown="teclar(event)">
+  <div class="area1">
+    <div class="linha1">
+      <div id="a1" class="a1 letra--jogo"></div>
+      <div id="a2" class="a2 letra--jogo"></div>
+      <div id="a3" class="a3 letra--jogo"></div>
+      <div id="a4" class="a4 letra--jogo"></div>
+      <div id="a5" class="a5 letra--jogo"></div>
+    </div>
+
+    <div class="linha2">
+      <div class="b1 letra--jogo"></div>
+      <div class="b2 letra--jogo"></div>
+      <div class="b3 letra--jogo"></div>
+      <div class="b4 letra--jogo"></div>
+      <div class="b5 letra--jogo"></div>
+    </div>
+
+    <div class="linha3">
+      <div class="c1 letra--jogo"></div>
+      <div class="c2 letra--jogo"></div>
+      <div class="c3 letra--jogo"></div>
+      <div class="c4 letra--jogo"></div>
+      <div class="c5 letra--jogo"></div>
+    </div>
+
+    <div class="linha4">
+      <div class="d1 letra--jogo"> </div>
+      <div class="d2 letra--jogo"> </div>
+      <div class="d3 letra--jogo"> </div>
+      <div class="d4 letra--jogo"> </div>
+      <div class="d5 letra--jogo"> </div>
+    </div>
+
+    <div class="linha5">
+      <div class="e1 letra--jogo"> </div>
+      <div class="e2 letra--jogo"> </div>
+      <div class="e3 letra--jogo"> </div>
+      <div class="e4 letra--jogo"> </div>
+      <div class="e5 letra--jogo"> </div>
+    </div>
+
+    <div class="linha6">
+      <div class="f1 letra--jogo"> </div>
+      <div class="f2 letra--jogo"> </div>
+      <div class="f3 letra--jogo"> </div>
+      <div class="f4 letra--jogo"> </div>
+      <div class="f5 letra--jogo"> </div>
+    </div>
+  </div>
+
+  <div class="cont div ">
+    <div class="area2">
+      <div class="linha7 teclado">
+        <button class="g1 tecla" onclick="inserindo(this)">Q</button>
+        <button class="g2 tecla" onclick="inserindo(this)">W</button>
+        <button class="g3 tecla" onclick="inserindo(this)">E</button>
+        <button class="g4 tecla" onclick="inserindo(this)">R</button>
+        <button class="g5 tecla" onclick="inserindo(this)">T</button>
+        <button class="g6 tecla" onclick="inserindo(this)">Y</button>
+        <button class="g7 tecla" onclick="inserindo(this)">U</button>
+        <button class="g8 tecla" onclick="inserindo(this)">I</button>
+        <button class="g9 tecla" onclick="inserindo(this)">O</button>
+        <button class="g10 tecla" onclick="inserindo(this)">P</button>
+      </div>
+
+      <div class="linha8 teclado">
+        <button class="h1 tecla" onclick="inserindo(this)">A</button>
+        <button class="h2 tecla" onclick="inserindo(this)">S</button>
+        <button class="h3 tecla" onclick="inserindo(this)">D</button>
+        <button class="h4 tecla" onclick="inserindo(this)">F</button>
+        <button class="h5 tecla" onclick="inserindo(this)">G</button>
+        <button class="h6 tecla" onclick="inserindo(this)">H</button>
+        <button class="h7 tecla" onclick="inserindo(this)">J</button>
+        <button class="h8 tecla" onclick="inserindo(this)">K</button>
+        <button class="h9 tecla" onclick="inserindo(this)">L</button>
+      </div>
+
+      <div class="linha9 teclado">
+        <button class="i1 tecla" onclick="inserindo(this)">ENTER</button>
+        <button class="i2 tecla" onclick="inserindo(this)">Z</button>
+        <button class="i3 tecla" onclick="inserindo(this)">X</button>
+        <button class="i4 tecla" onclick="inserindo(this)">C</button>
+        <button class="i5 tecla" onclick="inserindo(this)">V</button>
+        <button class="i6 tecla" onclick="inserindo(this)">B</button>
+        <button class="i7 tecla" onclick="inserindo(this)">N</button>
+        <button class="i8 tecla" onclick="inserindo(this)">M</button>
+        <button class="i9 tecla" onclick="inserindo(this)">⌫</button>
+      </div>
+
+    </div>
+
+</body>
+<script src="./wordle2.js"></script>
+
+</html>
